@@ -30,3 +30,4 @@ jobs:
       with:
         # Artifact name
         name: ${{ github.ref }}
+        path: /output/${{github.ref}}
